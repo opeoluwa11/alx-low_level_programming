@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
-* main - program entry point  assign a random
-* number to the variable n each time it is executed
-* return: always 0 when it is sucessful
+* main - program entry point
+* assign a random number to the variable n each time it is executed
+* Return: always 0(Success)
 */
 int main(void)
 {
