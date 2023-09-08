@@ -11,10 +11,10 @@ int main(void)
 	int n;
 	n = 25;
 
-	while (i < 35)
+	while (n < 35)
 	{
 		putchar(n);
-		i++;
+		n++;
 	}
 
 	putchar(10);
