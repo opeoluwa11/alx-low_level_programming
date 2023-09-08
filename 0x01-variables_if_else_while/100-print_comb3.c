@@ -12,9 +12,10 @@ int main(void)
 	while (x <= 58)
 	{
 		y = 49;
-		while ( y <= 57;)
+		while (y <= 57)
 		{
-			if (y > x){
+			if (y > x)
+			{
 				putchar(x);
 				putchar(y);
 				if (x != 56 || y != 57)
