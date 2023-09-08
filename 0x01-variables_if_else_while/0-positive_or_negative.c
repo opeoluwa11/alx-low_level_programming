@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+* main - program entry point  assign a random
+* number to the variable n each time it is executed
+* return: always 0 when it is sucessful
+*/
 int main(void)
 {
 	int n;
@@ -14,6 +18,6 @@ int main(void)
 	if (n == 0)
 		printf("%d is zero\n", n);
 	if (n < 0)
-		printf("%d is negative", n);
+		printf("%d is negative\n", n);
 	return (0);
 }
