@@ -16,7 +16,7 @@ int main(void)
 	{
 		putchar(n);
 		
-		if (n != 'e' && n != 'q')
+		if (n == 'e' && n == 'q')
 		{
 			n++;
 		}
