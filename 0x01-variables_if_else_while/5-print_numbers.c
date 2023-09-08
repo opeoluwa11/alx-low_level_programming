@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
@@ -10,11 +9,9 @@
 int main(void)
 {
 	int n;
-	n = 0;
-	while (n <= 10)
-	{
+
+	for (n = 0; n < 10; n++)
 		printf("%d", n);
-	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
