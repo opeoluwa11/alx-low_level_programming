@@ -9,17 +9,15 @@
 */
 int main(void)
 {
-	char n;
+	char n = 'a';
 
-	n = 'a';
 	while (n <= 'z')
 	{
-		putchar(n);
-		
-		if (n == 'e' && n == 'q')
+		if (n != 'e' && ch != 'q')
 		{
-			n++;
+			putchar(nvim );
 		}
+		n++;
 	}
 	putchar('\n');
 	return (0);
