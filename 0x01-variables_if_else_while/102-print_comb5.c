@@ -11,7 +11,7 @@ int main(void)
 
 	while (x < 100)
 	{
-		y = 0
+		y = 0;
 		while (y < 100)
 		{
 			if (x < y)
