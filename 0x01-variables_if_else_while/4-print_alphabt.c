@@ -13,9 +13,9 @@ int main(void)
 
 	while (n <= 'z')
 	{
-		if (n != 'e' && ch != 'q')
+		if (n != 'e' && n != 'q')
 		{
-			putchar(nvim );
+			putchar(n );
 		}
 		n++;
 	}
