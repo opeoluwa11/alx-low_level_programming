@@ -1,8 +1,8 @@
-nclude <stdio.h>
+#include <stdio.h>
 #include <unistd.h>
 
 /**
- main - print quote
+* main - print quote
 *
 * Description: prints Dora's quote
 *
