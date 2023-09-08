@@ -9,14 +9,14 @@
 int main(void)
 {
 	int n;
-	n = 25;
+	n = 0;
 
-	while (n < 35)
+	while (n < 10)
 	{
 		putchar(n);
 		n++;
 	}
 
-	putchar(10);
+	putchar('\n');
 	return (0);
 }
